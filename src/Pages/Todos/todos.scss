@@ -1,0 +1,30 @@
+
+.todos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+     background-color: #282c34;
+     font-size: calc(10px + 2vmin);
+     color: white;
+ .addTask {
+     padding: 1em 0;
+      input {
+          all: unset;
+          padding: 1em;
+          border-bottom: 1px white solid;
+          color: white;
+          text-align: center;
+      }
+ }
+ .taskList {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex:1;
+
+ }
+}
